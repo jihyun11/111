@@ -1,0 +1,5 @@
+insec = int (input("초를 입력하세요"))
+hour = (insec / (60*60))
+mini = (insec / 60)
+sec = (insec % 60)
+print(f"{hour}시, {mini}분, {sec}초")
