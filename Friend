@@ -1,0 +1,9 @@
+xlist = ["ffff", "sssss", "aaaa", "bbbb"]
+nlist = []
+for i in range (len(xlist)):
+    if len(xlist[i]) == 4:
+        nlist.append(xlist[i])
+
+print(nlist)
+
+print ([n for n in x if len(n) == 4])
